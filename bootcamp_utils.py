@@ -1,6 +1,8 @@
 # Bootcamp utils: A collection of statistical functions proved useful to 55 students
 import numpy as np
-
+import scipy.special
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 def ecdf(data):
     """
